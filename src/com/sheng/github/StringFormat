@@ -1,0 +1,3 @@
+// String格式化
+http://api.map.baidu.com/geocoder/v2/?address=%s&output=json&ak=%s&pois=%d
+String mapUrl = String.format(searchByAddress, address, ak, city);
